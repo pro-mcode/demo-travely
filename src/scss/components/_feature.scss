@@ -1,0 +1,43 @@
+@use "../abstracts" as *;
+.feature {
+  &-container {
+    background: $secondary;
+  }
+
+  &-top {
+    background: $light;
+    color: $dark;
+    width: fit-content;
+  }
+
+  p {
+    color: $main-1;
+  }
+  &-container:nth-child(1) {
+    .feature-top {
+      color: $main-3;
+      background-color: $main-3-light;
+    }
+  }
+  &-container:nth-child(2) {
+    background: $light;
+
+    .feature-top {
+      color: $main-4;
+      background-color: $main-4-light;
+    }
+  }
+  &-container:nth-child(3) {
+    .feature-top {
+      color: $main-2;
+      background-color: $main-2-light;
+    }
+  }
+
+  &-wrapper {
+    @include container;
+    color: $dark;
+    margin-inline: auto;
+    padding: $space-6 0 $space-6;
+  }
+}

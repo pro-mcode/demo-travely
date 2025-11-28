@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+.blog-expand {
+  background: $secondary;
+
+  &-content {
+    @include container;
+    color: $main-1;
+    max-width: 90%;
+    margin-inline: auto;
+    white-space: pre-line;
+
+    h1,
+    span {
+      color: $dark;
+    }
+  }
+  //   .blog-content {
+  //     .blog-card {
+  //       border-top: 2px solid $main-4;
+  //       h4 {
+  //         color: $dark;
+  //       }
+  //       .content,
+  //       .date {
+  //         color: $main-1;
+  //       }
+  //     }
+  //   }
+}

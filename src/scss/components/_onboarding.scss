@@ -1,0 +1,46 @@
+@use "../abstracts" as *;
+.onboarding {
+  background: $secondary;
+
+  &-top {
+    background: $light;
+    color: $dark;
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  &-content {
+    @include container;
+    color: $light;
+    // margin-inline: auto;
+  }
+  .onboarding-content {
+    p {
+      color: $main-1;
+    }
+
+    .onboard-card:nth-child(1) .onboard-card-top {
+      color: $main-3;
+      background-color: $main-3-light;
+    }
+    .onboard-card:nth-child(1) h4 {
+      color: $main-3;
+    }
+
+    .onboard-card:nth-child(2) .onboard-card-top {
+      color: $main-4;
+      background-color: $main-4-light;
+    }
+    .onboard-card:nth-child(2) h4 {
+      color: $main-4;
+    }
+
+    .onboard-card:nth-child(3) .onboard-card-top {
+      color: $main-2;
+      background-color: $main-2-light;
+    }
+    .onboard-card:nth-child(3) h4 {
+      color: $main-2;
+    }
+  }
+}

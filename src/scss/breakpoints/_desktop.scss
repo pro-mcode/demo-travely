@@ -1,0 +1,67 @@
+@use "../abstracts" as *;
+@media (min-width: 1200px) {
+  .section-note {
+    max-width: 50%;
+  }
+
+  .navbar {
+    @include container;
+    padding: 0;
+    width: 80%;
+  }
+  .header-container {
+    @include container;
+    width: 80%;
+    max-width: $container-width;
+    padding: 0;
+  }
+  .hero-content {
+    @include container;
+    padding: 0;
+    width: 80%;
+  }
+  .onboarding-content {
+    @include container;
+    width: 80%;
+  }
+  .product-video-content {
+    @include container;
+    width: 80%;
+    padding: $space-2;
+    background: $light;
+    border-radius: $radius;
+  }
+  .feature-wrapper {
+    @include container;
+    width: 80%;
+    padding: $space-6 0;
+  }
+  .pricing-content {
+    @include container;
+    width: 80%;
+  }
+  .testimonial-content {
+    @include container;
+    width: 80%;
+  }
+  .get-started {
+    padding: $space-10 0;
+
+    &-container {
+      @include container;
+      width: 80%;
+    }
+  }
+  .blog-content {
+    @include container;
+    width: 80%;
+  }
+  .blog-expand-content {
+    @include container;
+    width: 80%;
+  }
+  .footer-content {
+    @include container;
+    width: 80%;
+  }
+}

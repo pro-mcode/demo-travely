@@ -1,0 +1,15 @@
+@use "../abstracts" as *;
+.get-started {
+  background: $light;
+
+  &-container {
+    @include flex-center;
+    @include container;
+    background: $primary;
+    color: $light;
+  }
+  &-circle,
+  &-line {
+    background: $filled;
+  }
+}

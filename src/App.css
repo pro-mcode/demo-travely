@@ -1,0 +1,44 @@
+@import "tailwindcss";
+.section-title {
+  @apply text-2xl font-bold text-center mx-auto md:text-4xl;
+}
+.section-note {
+  @apply text-base font-light text-center mt-4 mx-auto md:text-lg;
+}
+.hero-circle {
+  @apply w-100 h-100 rounded-full absolute -left-20 -top-20 md:w-140 md:h-140;
+}
+.hero-content {
+  @apply flex flex-col justify-center items-center space-y-8 relative lg:space-y-0 lg:flex-row lg:justify-between lg:items-end;
+  position: relative;
+}
+.hero-top {
+  @apply text-xs font-light uppercase p-3 px-5 rounded-md shadow-sm w-fit mx-auto lg:mx-0;
+}
+.hero-heading {
+  @apply text-3xl font-bold leading-14 text-center max-w-[80%] mx-auto md:text-4xl lg:w-full lg:mx-0 lg:text-left lg:text-[2.7rem];
+}
+.hero-text {
+  @apply text-sm font-light opacity-80 text-center md:text-base lg:text-left;
+}
+.btn-container {
+  @apply flex flex-col justify-center my-5 lg:justify-start;
+}
+.hero-btn {
+  @apply text-base w-fit mx-auto lg:mx-0;
+}
+.onboarding-top {
+  @apply text-xs font-normal uppercase p-3 px-5 rounded-md shadow-sm;
+}
+.product-video-top {
+  @apply text-xs font-normal uppercase p-3 px-5 rounded-md shadow-sm;
+}
+.pricing-top {
+  @apply text-xs font-normal uppercase p-3 px-5 rounded-md shadow-sm;
+}
+.testimonial-top {
+  @apply text-xs font-normal uppercase p-3 px-5 rounded-md shadow-sm w-fit mx-auto;
+}
+.blog-top {
+  @apply text-xs font-normal uppercase p-3 px-5 rounded-md shadow-sm w-fit mx-auto;
+}

@@ -1,0 +1,17 @@
+@use "../abstracts" as *;
+.footer {
+  background: $primary;
+  color: $light;
+
+  &-content {
+    @include container;
+    max-width: 90%;
+
+    p,
+    li,
+    span {
+      color: $light;
+      opacity: 80%;
+    }
+  }
+}

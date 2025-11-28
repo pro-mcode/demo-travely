@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+.pricing {
+  background: $primary;
+
+  .section-title,
+  .section-note {
+    color: $light;
+  }
+
+  &-top {
+    background: $main-3-light;
+    color: $dark;
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  &-content {
+    @include container;
+    color: $main-1;
+    // padding: $space-7 0;
+    margin-inline: auto;
+  }
+  .pricing-content {
+    p {
+      color: $main-1;
+    }
+
+    .pricing-card:nth-child(1) .pricing-card-top {
+      color: $main-3;
+      background-color: $main-3-light;
+    }
+    .pricing-card:nth-child(1) h4 {
+      color: $main-3;
+    }
+
+    .pricing-card:nth-child(2) .pricing-card-top {
+      color: $main-4;
+      background-color: $main-4-light;
+    }
+    .pricing-card:nth-child(2) h4 {
+      color: $main-4;
+    }
+
+    .pricing-card:nth-child(3) .pricing-card-top {
+      color: $main-2;
+      background-color: $main-2-light;
+    }
+    .pricing-card:nth-child(3) h4 {
+      color: $main-2;
+    }
+  }
+}

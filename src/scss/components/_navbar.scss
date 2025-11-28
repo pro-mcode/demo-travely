@@ -1,0 +1,50 @@
+@use "../abstracts" as *; // Import *only* variables & mixins without namespace
+
+.navbar {
+  @include container;
+  max-width: 95%;
+
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: $space-5;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $light;
+  }
+
+  .hamburger {
+    border: 1px solid $light;
+    padding: $space-2;
+    border-radius: $radius-sm;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+    &-top,
+    &-middle,
+    &-bottom {
+      background: $light;
+    }
+  }
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+
+  li {
+    font-weight: 400;
+    color: $light;
+    text-transform: capitalize;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 80%;
+    }
+  }
+}

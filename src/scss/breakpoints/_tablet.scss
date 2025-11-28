@@ -1,0 +1,74 @@
+@use "../abstracts" as *;
+@media (min-width: 768px) {
+  .section-note {
+    max-width: 60%;
+  }
+  .navbar {
+    @include container;
+    padding: 0;
+    width: 90%;
+  }
+  .header-container {
+    @include container;
+    max-width: 95%;
+    padding: 0;
+  }
+  .hero-content {
+    @include container;
+    width: 90%;
+    padding: 0;
+  }
+  .onboarding-content {
+    @include container;
+    width: 95%;
+  }
+  .product-video-content {
+    @include container;
+    width: 100%;
+    padding: 0;
+  }
+  .feature-wrapper {
+    @include container;
+    width: 90%;
+    padding: $space-6 0;
+  }
+  .feature-container:nth-child(2) {
+    background: $light;
+
+    .feature-wrapper {
+      flex-direction: row-reverse;
+    }
+    .image-container {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .feature-top {
+      color: $main-4;
+      background-color: $main-4-light;
+    }
+  }
+  .pricing-content {
+    @include container;
+    width: 95%;
+  }
+  .testimonial-content {
+    @include container;
+    width: 95%;
+  }
+  .get-started-container {
+    @include container;
+    width: 100%;
+  }
+  .blog-content {
+    @include container;
+    width: 95%;
+  }
+  .blog-expand-content {
+    @include container;
+    width: 95%;
+  }
+  .footer-content {
+    @include container;
+    width: 90%;
+  }
+}

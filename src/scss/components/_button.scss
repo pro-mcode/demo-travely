@@ -1,0 +1,43 @@
+@use "../abstracts" as *;
+
+.btn {
+  padding: $space-3 $space-4;
+  border-radius: $radius-sm;
+  background: $light;
+  color: $dark;
+  font-weight: 500;
+  transition: 0.25s;
+
+  &:hover {
+    background: $main-4;
+    color: $light;
+  }
+}
+
+.btn-blog {
+  border-radius: $radius-sm;
+  padding: $space-2 $space-3;
+  background: $main-3-light;
+  color: $dark;
+  font-weight: 300;
+  transition: 0.25s;
+
+  &:hover {
+    background: $dark;
+    color: $light;
+  }
+}
+
+.btn-nav {
+  border-radius: $radius-md;
+  padding: $space-2 $space-3;
+  background: $primary-2;
+  color: $light;
+  font-weight: 500;
+  transition: 0.25s;
+  //   opacity: 90%;
+
+  &:hover {
+    opacity: 80%;
+  }
+}

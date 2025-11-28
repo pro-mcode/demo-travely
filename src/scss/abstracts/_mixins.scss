@@ -1,0 +1,26 @@
+// _mixins.scss → Functions, reusable styles
+@use "variables" as *; // import variables here
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container {
+  width: 100%;
+  max-width: $container-width;
+  margin-inline: auto;
+  padding: $space-6 0 0;
+}
+
+// @mixin responsive($property, $sm, $md, $lg) {
+//     .section-note: $sm;
+
+//   @media (min-width: 768px) {
+//     .section-note: $md;
+//   }
+
+//   @media (min-width: 1024px) {
+//     #{$property}: $lg;
+//   }
+// }

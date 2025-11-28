@@ -1,0 +1,18 @@
+@use "../abstracts" as *;
+.product-video {
+  background: $light;
+
+  &-top {
+    background: $main-3-light;
+    color: $dark;
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  &-content {
+    @include container;
+    color: $light;
+    margin-top: $space-6;
+    padding: 0;
+  }
+}

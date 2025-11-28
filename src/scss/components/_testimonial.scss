@@ -1,0 +1,55 @@
+@use "../abstracts" as *;
+.testimonial {
+  background: $secondary;
+
+  &-top {
+    background: $light;
+    color: $dark;
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  &-content {
+    @include container;
+    color: $light;
+    margin-inline: auto;
+  }
+  .testimonial-content {
+    .testimonial-card {
+      .content,
+      .position {
+        color: $main-1;
+      }
+    }
+
+    .testimonial-card:nth-child(1) .testimonial-card-top {
+      color: $main-3;
+    }
+    .testimonial-card:nth-child(1) h4 {
+      color: $main-3;
+    }
+    .testimonial-card:nth-child(1) .line {
+      background: $main-3;
+    }
+
+    .testimonial-card:nth-child(2) .testimonial-card-top {
+      color: $main-4;
+    }
+    .testimonial-card:nth-child(2) h4 {
+      color: $main-4;
+    }
+    .testimonial-card:nth-child(2) .line {
+      background: $main-4;
+    }
+
+    .testimonial-card:nth-child(3) .testimonial-card-top {
+      color: $main-2;
+    }
+    .testimonial-card:nth-child(3) h4 {
+      color: $main-2;
+    }
+    .testimonial-card:nth-child(3) .line {
+      background: $main-2;
+    }
+  }
+}

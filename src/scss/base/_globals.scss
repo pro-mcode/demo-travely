@@ -1,0 +1,19 @@
+// _globals.scss → Global tags like body, p, a
+@use "../abstracts" as *;
+
+body {
+  font-family: "Inter", sans-serif;
+  background: $light;
+  color: $dark;
+  line-height: 1.6;
+}
+.section-title {
+  max-width: 80%;
+}
+.section-note {
+  max-width: 80%;
+}
+.glbal-container {
+  max-width: $container-width;
+  margin-inline: auto;
+}

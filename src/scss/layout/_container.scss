@@ -1,0 +1,8 @@
+@use "../abstracts" as *;
+
+.container {
+  @include container;
+}
+.section-note {
+  color: $main-1;
+}

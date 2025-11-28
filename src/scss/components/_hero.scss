@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  height: fit-content;
+  background: $primary;
+  position: relative;
+  padding-bottom: 0;
+
+  &-circle {
+    background: $primary-2;
+  }
+
+  &-content {
+    @include container;
+    max-width: 95%;
+    color: $light;
+    padding: 0;
+    margin-inline: auto;
+    z-index: 100;
+  }
+
+  &-top {
+    background: $primary;
+    color: $light;
+  }
+}
