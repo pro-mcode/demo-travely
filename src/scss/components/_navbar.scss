@@ -2,8 +2,7 @@
 
 .navbar {
   @include container;
-  max-width: 95%;
-
+  max-width: 90%;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -20,10 +19,6 @@
     border: 1px solid $light;
     padding: $space-2;
     border-radius: $radius-sm;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
 
     &-top,
     &-middle,
