@@ -106,10 +106,13 @@ npm run build
 
 ## Author & Developer
 
-Author: Adedamola Maxwell
-Developer: AD-M Innovations
-Innovating Ideas. Delivering Excellence.
-From concept to code, powering future tech innovation.
+### Author: Adedamola Maxwell.
+
+### Developer: AD-M Innovations.
+
+### Innovating Ideas. Delivering Excellence.
+
+### From concept to code, powering future tech innovation.
 
 ## License
 
