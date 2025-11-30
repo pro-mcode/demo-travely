@@ -10,7 +10,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Folder Structure](#folder-structure)
 - [Pages & Components](#pages--components)
 - [Deployment](#deployment)
 - [Author & Developer](#author--developer)
@@ -62,21 +61,6 @@ npm run dev
 npm run build
 npm run preview
 ```
-
-## Folder Structure
-
-travely-demo
-│ README.md
-│ package.json
-│ .gitignore
-│ vite.config.js
-└── src
-├── components
-├── pages
-├── scss
-├── assets
-├── utils
-└── App.jsx
 
 ## Pages & Components
 
