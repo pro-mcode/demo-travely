@@ -43,7 +43,7 @@ Other Tools:
 
 - Git
 - React Router
-- Vite or CRA (depending on setup)
+- Vite
 
 ## Installation
 
