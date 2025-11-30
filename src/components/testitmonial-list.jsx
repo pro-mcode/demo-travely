@@ -5,20 +5,20 @@ export const testimonialLists = [
     author: "Adrian Custy",
     position: "CTO, AD-M Innovations",
     content:
-      "Seed money ramen market buyer metrics user experience disruptive. Client angel investor early adopters network effects startup lean startup rockstar prototype seed money.",
+      "Travely made finding travel insurance effortless. I quickly compared plans and found the perfect coverage for my trip. Highly recommended!",
   },
   {
     quote: <FaQuoteLeft />,
     author: "Adedamola Maxwell",
     position: "Founder & CEO, AD-M Innovations",
     content:
-      "Seed money ramen market buyer metrics user experience disruptive. Client angel investor early adopters network effects startup lean startup rockstar prototype seed money.",
+      "I love how easy it is to browse and compare multiple insurance plans. Travely saved me time and gave me peace of mind.",
   },
   {
     quote: <FaQuoteLeft />,
     author: "Williams Doe",
     position: "COO, AD-M Innovations",
     content:
-      "Seed money ramen market buyer metrics user experience disruptive. Client angel investor early adopters network effects startup lean startup rockstar prototype seed money.",
+      "Finally, a travel insurance platform that’s simple and reliable. Selecting the right plan was fast and straightforward.",
   },
 ];

@@ -6,8 +6,8 @@ export default function Onboarding() {
       <div className="onboarding-top mb-4">3 Steps Onboarding</div>
       <h2 className="section-title">Simple Process to Get Start</h2>
       <div className="section-note">
-        Supply chain assets vesting period mass market graphical user interface.
-        Advisor traction seed money.
+        Install the app, compare available travel insurance plans, and select
+        the plan that suits you.
       </div>
       <div className="onboarding-content w-full mx-auto flex flex-col justify-between space-y-8 md:space-y-0 md:mt-0 md:flex-row md:gap-4">
         {onboardSteps.map((step, index) => (

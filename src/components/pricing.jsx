@@ -3,10 +3,10 @@ export default function Pricing() {
   return (
     <div id="pricing" className="pricing py-24">
       <div className="pricing-top mb-4">Pricing</div>
-      <h2 className="section-title">Simple Process to Get Start</h2>
+      <h2 className="section-title">Flexible Pricing Options</h2>
       <div className="section-note">
-        Supply chain assets vesting period mass market graphical user interface.
-        Advisor traction seed money.
+        Flexible plans to suit every traveler. Compare, choose, and pay for the
+        coverage that fits your needs—transparent pricing with no hidden fees.
       </div>
       <div className="pricing-content w-full mx-auto flex flex-col justify-between space-y-8 md:space-y-0 md:flex-row md:gap-3 lg:gap-8">
         {pricingLists.map((list, index) => (

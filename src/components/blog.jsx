@@ -1,43 +1,3 @@
-// import { blogItems } from "./blog-items";
-// import { useNavigate } from "react-router";
-// export default function Blog() {
-//   const navigate = useNavigate();
-//   return (
-//     <div className="blog py-24">
-//       <div className="blog-top mb-4">blog posts</div>
-//       <h2 className="section-title">Recent Blog Posts</h2>
-//       <div className="section-note">
-//         Supply chain assets vesting period mass market graphical user interface.
-//         Advisor traction seed money.
-//       </div>
-//       <div
-//         className="blog-content w-full mx-auto
-//       grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 space-y-8 sm:space-y-0  sm:gap-4 sm:max-w-[95%]"
-//       >
-//         {blogItems.map((blog, index) => (
-//           <div
-//             key={index}
-//             className="blog-card bg-white px-8 py-12 pb-16 shadow-sm w-100 max-w-[90%] mx-auto sm:min-w-full"
-//           >
-//             <h4 className="text-lg font-medium md:text-2xl">{blog.title}</h4>
-//             <div className="date text-sm py-5">{blog.date}</div>
-//             <div className="content text-base">
-//               {blog.content.split(" ").slice(0, 15).join(" ")}...
-//             </div>
-//             <button
-//               onClick={() => navigate(`/blog/${blog.slug}`)}
-//               className="btn-blog mt-4"
-//             >
-//               Read more
-//             </button>
-//           </div>
-//         ))}
-//       </div>
-//       <div className="btn-blog mt-8 w-fit mx-auto">Load more</div>
-//     </div>
-//   );
-// }
-
 import { useState } from "react";
 import { blogItems } from "./blog-items";
 import { useNavigate } from "react-router";
@@ -68,8 +28,8 @@ export default function Blog() {
       <div className="blog-top mb-4">blog posts</div>
       <h2 className="section-title">Recent Blog Posts</h2>
       <div className="section-note">
-        Supply chain assets vesting period mass market GUI. Advisor traction
-        seed money.
+        Stay updated with our latest travel tips, guides, and news. Learn how to
+        plan, protect, and enjoy your trips with confidence.
       </div>
 
       <div

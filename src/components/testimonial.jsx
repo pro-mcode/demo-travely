@@ -6,8 +6,8 @@ export default function Testimonial() {
       <div className="testimonial-top mb-4">testimonials</div>
       <h2 className="section-title">Trusted By Thousands of Happy Customers</h2>
       <div className="section-note">
-        Supply chain assets vesting period mass market graphical user interface.
-        Advisor traction seed money.
+        See how Travely helps travelers find the best insurance plans quickly,
+        easily, and with complete confidence.
       </div>
       <div className="testimonial-content w-full mx-auto flex flex-col justify-between space-y-8 md:space-y-0 md:flex-row md:gap-3 lg:gap-8">
         {testimonialLists.map((testimony, index) => (
